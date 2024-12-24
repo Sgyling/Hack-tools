@@ -1,0 +1,32 @@
+---
+title: Dude Suite Web 渗透测试工具集
+date: 2024-3-22 16:14:46
+tags:
+- 渗透工具推荐
+categories:
+- 工具推荐
+---
+
+
+
+# Dude Suite Web 渗透测试工具集
+
+
+
+[![img](https://private-user-images.githubusercontent.com/73023058/302649157-37e89596-fda7-4021-814e-68143ac7f50d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEwOTQ2NzUsIm5iZiI6MTcxMTA5NDM3NSwicGF0aCI6Ii83MzAyMzA1OC8zMDI2NDkxNTctMzdlODk1OTYtZmRhNy00MDIxLTgxNGUtNjgxNDNhYzdmNTBkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIyVDA3NTkzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA1ZGM3Mjg0YjUwMjBkMmI0ZjkxOGZiMDg5MWZhYTAwODRkNDM2MjViYTQ0MTZjMGQ5Mzk1MjdmZDAzYmVmYTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.z-L24WjL-8BBbujeDBCF75t_mdSSxxRUTFgsEfeEfK0)](https://private-user-images.githubusercontent.com/73023058/302649157-37e89596-fda7-4021-814e-68143ac7f50d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEwOTQ2NzUsIm5iZiI6MTcxMTA5NDM3NSwicGF0aCI6Ii83MzAyMzA1OC8zMDI2NDkxNTctMzdlODk1OTYtZmRhNy00MDIxLTgxNGUtNjgxNDNhYzdmNTBkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIyVDA3NTkzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA1ZGM3Mjg0YjUwMjBkMmI0ZjkxOGZiMDg5MWZhYTAwODRkNDM2MjViYTQ0MTZjMGQ5Mzk1MjdmZDAzYmVmYTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.z-L24WjL-8BBbujeDBCF75t_mdSSxxRUTFgsEfeEfK0)
+
+  Dude Suite（Dude Suite Web Security Tools）是一款集成化的Web渗透测试工具集，其中包含了多种常见的渗透测试场景。通过使用该工具集，测试人员可以高效地进行Web应用程序的渗透测试及漏洞验证，挖掘并复现Web应用中的安全隐患，以此增强网络的安全性保护重要的数据和系统免受潜在的网络威胁。
+
+### 官方网站
+
+[https://www.dudesuite.cn](https://www.dudesuite.cn/)
+
+### 程序下载
+
+[点击下载（Github）](https://github.com/x364e3ab6/DudeSuite/releases/download/v1.4.0.7/DudeSuite_Latest_Win.zip)
+
+[点击下载（DudeSuite）](http://update.dudesuite.cn:8530/DudeSuite_Latest_Win.zip)
+
+### 运行环境
+
+Windows10 1709、Windows Server 1709 .net framework 4.7.2 版本及以上。
