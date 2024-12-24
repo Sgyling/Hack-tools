@@ -1,45 +1,25 @@
-# FrameScan-GUI
+FrameScan-GUI
+工具简介
+FrameScan-GUI是一款python3和Pyqt编写的具有图形化界面的cms漏洞检测框架，是FrameScan 的加强版。支持多种检测方式，支持大多数CMS，可以自定义CMS类型及自行编写POC。旨在帮助有安全经验的安全工程师对已知的应用快速发现漏洞。
 
-
-
-## 工具简介
-
-
-
-FrameScan-GUI是一款python3和Pyqt编写的具有图形化界面的cms漏洞检测框架，是[FrameScan](https://github.com/qianxiao996/FrameScan) 的加强版。支持多种检测方式，支持大多数CMS，可以自定义CMS类型及自行编写POC。旨在帮助有安全经验的安全工程师对已知的应用快速发现漏洞。
-
-### 下载地址：
-
-
-
+下载地址：
 https://github.com/qianxiao996/FrameScan-GUI/releases
 
-## 支持平台
-
-
-
-- Windows
-- Linux
-
-## 使用方法
-
-
-
+支持平台
+Windows
+Linux
+使用方法
 下载本项目，运行exe即可。
 
-[![image-20210523151118942](https://github.com/qianxiao996/FrameScan-GUI/raw/master/img/1.png)](https://github.com/qianxiao996/FrameScan-GUI/blob/master/img/1.png)
+image-20210523151118942
 
-[![2](https://github.com/qianxiao996/FrameScan-GUI/raw/master/img/2.jpg)](https://github.com/qianxiao996/FrameScan-GUI/blob/master/img/2.jpg)
+2
 
-[![image-20211026211155449](https://github.com/qianxiao996/FrameScan-GUI/raw/master/img/3.png)](https://github.com/qianxiao996/FrameScan-GUI/blob/master/img/3.png)
+image-20211026211155449
 
-## 插件模板
-
-
-
+插件模板
 以下为插件模板，请尽量规范编写。脚本中为示例代码。
 
-```
 # -*- coding: UTF-8 -*-
 #!/usr/bin/python
 import sys
@@ -234,35 +214,19 @@ if __name__== '__main__':
     else:
         print("[E] 该漏洞没有EXP！")
     print("[*] 运行完毕！")
-```
-
-
-
 插件目录下
 
 插件前缀为"Plugins_ "，请规范编写
 
-## 插件获取
-
-
-
+插件获取
 插件为内部使用。需要请编写插件联系作者交换。
 
-邮箱地址：[qianxiao996@126.com](mailto:qianxiao996@126.com)
+邮箱地址：qianxiao996@126.com
 
-## 打包pyd so
-
-
-
-```
+打包pyd so
 # python3 setup.py build_ext --inplace
-```
-
-
-
 setup.py
 
-```
 # -*- coding:utf-8 -*-
 # @Time      :2020/4/20
 from distutils.core import setup
@@ -274,47 +238,21 @@ setup(
 )
 
 # python3 setup.py build_ext --inplace
-```
-
-
-
-# 环境安装
-
-
-
+环境安装
 本程序采用python3.7+PySide6开发。
 
-```
 Pysocks
 PySide6
 requests
 pyperclip
 chardet
 eventlet
-```
-
-
-
-## PySide6安装
-
-
-
+PySide6安装
 采用命令安装，Win+R，输入CMD，打开命令框，输入以下命令。后面是豆瓣的镜像地址，是为了加快下载速度。
 
-```
 pip install PySide6 -i https://pypi.douban.com/simple
-```
-
-
-
-## 程序目录说明
-
-
-
+程序目录说明
 ├─Conf 程序配置文件目录 │ └─qm qt邮件英文汉化库 ├─Logs 程序日志目录 ├─Modules 自定义模块目录，直接引用模块名即可 │ ├─fake_useragent 第三方库 │ └─ 自定义其他模块 ├─Plugins │ ├─Exp_Plugins Shell文件目录 │ ├─Plugins_Template 插件test模板，新增插件调用此文件 │ └─Vuln_Plugins 所有的漏洞插件 │ ├─Apache cms名称 │ │ └─ 插件名称 以Plugins_ 开头 │ ├─... │ │ └─... └─QSS 版本更新用不到了 └─mac
 
-# 警告！
-
-
-
-**请勿用于非法用途！否则自行承担一切后果**
+警告！
+请勿用于非法用途！否则自行承担一切后果
