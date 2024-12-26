@@ -2,6 +2,12 @@
 
 github:https://github.com/ThomasHabets/arping
 
+## arping-简介
+
+这是一款把ping玩出花的命令~
+
+
+
 ### 各选项功能及使用方法
 
 1. **`-0` 选项**
