@@ -110,4 +110,21 @@ github:https://github.com/ThomasHabets/arping
     - **功能**：禁用 seccomp，这是默认的状态设置。
     - **示例**：`arping -Z <目标IP地址>`
 
-## 
+## 实操截图
+#### -A 参数截图
+![image](https://github.com/user-attachments/assets/53f5a60a-a4fc-4e1f-855b-23be72649a8a)
+#### -U 参数截图
+![image](https://github.com/user-attachments/assets/929856a2-b3ab-4c1b-bf4c-e280151c01e6)
+#### -i -U 参数截图
+![image](https://github.com/user-attachments/assets/611eceac-2359-45a2-8c4e-bb74bd663e41)
+
+# 最后其他参数,如果需要请自行测试咯~
+
+
+
+
+
+
+
+
+
