@@ -74,3 +74,17 @@ amap是一款用于识别目标端口上应用程序协议的工具。
 用法:用Amap 工具在指定的端口（或一段范围）， 测试目标主机39.106.226.142上正在运行的应用程序
 
 amap -bqv 39.106.226.142 80
+
+## 实操截图
+amap -h
+![image](https://github.com/user-attachments/assets/8cbf1932-98cc-4212-b795-a207955c6331)
+amap -dqv ip 端口
+中间件
+
+
+
+
+
+
+
+
