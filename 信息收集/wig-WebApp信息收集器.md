@@ -64,33 +64,32 @@ wig 的默认行为是识别 CMS，并在检测到 CMS 的版本后退出。这�
 
 
 ```
-usage: wig.py [-h] [-l INPUT_FILE] [-q] [-n STOP_AFTER] [-a] [-m] [-u] [-d]
-              [-t THREADS] [--no_cache_load] [--no_cache_save] [-N]
-              [--verbosity] [--proxy PROXY] [-w OUTPUT_FILE]
-              [url]
+用法：wig.py [-h] [ -l 输入文件 ] [ -q ] [ -n 检测到这么多个内容管理系统（CMS）后停止 ] [ -a ] [ -m ] [ -u ] [ -d ]
+[ -t 线程数 ] [ --no_cache_load ] [ --no_cache_save ] [ -N ]
+[ --verbosity ] [ --proxy 代理服务器地址 ] [ -w 输出文件 ]
+[ 网址 ]
 
 WebApp Information Gatherer
 
-positional arguments:
-  url              The url to scan e.g. http://example.com
+位置参数：
+网址：要扫描的网址，例如http://example.com
 
-optional arguments:
-  -h, --help       show this help message and exit
-  -l INPUT_FILE    File with urls, one per line.
-  -q               Set wig to not prompt for user input during run
-  -n STOP_AFTER    Stop after this amount of CMSs have been detected. Default:
-                   1
-  -a               Do not stop after the first CMS is detected
-  -m               Try harder to find a match without making more requests
-  -u               User-agent to use in the requests
-  -d               Disable the search for subdomains
-  -t THREADS       Number of threads to use
-  --no_cache_load  Do not load cached responses
-  --no_cache_save  Do not save the cache for later use
-  -N               Shortcut for --no_cache_load and --no_cache_save
-  --verbosity, -v  Increase verbosity. Use multiple times for more info
-  --proxy PROXY    Tunnel through a proxy (format: localhost:8080)
-  -w OUTPUT_FILE   File to dump results into (JSON)
+可选参数：
+-h, --help：显示此帮助信息并退出
+-l 输入文件：包含网址的文件，每行一个网址。
+-q：设置 wig 在运行期间不提示用户输入。
+-n 检测到这么多个内容管理系统（CMS）后停止：检测到指定数量的内容管理系统（CMS）后停止。默认值：1
+-a：在检测到第一个内容管理系统（CMS）后不停止。
+-m：尝试更努力地查找匹配项，而不发起更多请求。
+-u：请求中要使用的用户代理。
+-d：禁用对子域名的搜索。
+-t 线程数：要使用的线程数量。
+--no_cache_load：不加载缓存的响应内容。
+--no_cache_save：不保存缓存以供后续使用。
+-N：等同于同时使用 --no_cache_load 和 --no_cache_save 这两个选项。
+--verbosity, -v：增加详细程度。多次使用可获取更多信息。
+--proxy 代理服务器地址：通过代理服务器进行中转（格式：localhost:8080）
+-w 输出文件：将结果转储到的文件（JSON 格式）
 ```
 
 
