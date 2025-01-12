@@ -10,6 +10,21 @@
 ![](https://pic1.imgdb.cn/item/67836d24d0e0a243d4f398da.png)
 #### 黑暗界面
 
+![](https://pic1.imgdb.cn/item/67836ea0d0e0a243d4f39903.png)
+
+![](https://pic1.imgdb.cn/item/67836eb7d0e0a243d4f39907.png)
+
+![](https://pic1.imgdb.cn/item/67836ec9d0e0a243d4f3990c.png)
+
 
 ### 开始美化
 官方:https://www.nushell.sh/
+
+
+```
+#打开终端
+winget install nushell #安装nushell
+#如果无法打开请开启梯子
+```
+
+
