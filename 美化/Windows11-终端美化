@@ -8,6 +8,7 @@
 ![](https://pic1.imgdb.cn/item/67836c5cd0e0a243d4f398ca.png)
 
 ![](https://pic1.imgdb.cn/item/67836d24d0e0a243d4f398da.png)
+
 #### 黑暗界面
 
 ![](https://pic1.imgdb.cn/item/67836ea0d0e0a243d4f39903.png)
@@ -26,5 +27,23 @@
 winget install nushell #安装nushell
 #如果无法打开请开启梯子
 ```
+### 终端背景图片
+https://pic1.imgdb.cn/item/67837273d0e0a243d4f399ff.jpg
+下载后,讲图片设置为终端背景图片
 
+### 背景图像不透明度 20%
+### 文本格式 加粗字体
 
+### 透明度中的背景不透明度 选择100% 或者90%
+### 打开:启用亚克力材料
+
+### 窗口边框间距,设置为:8
+### 滚动条可见性: 可见
+
+### 保存
+
+## 选择白天模式,或者夜间模式
+### 白天模式 选择nushell > 外观 > 配色方案 > OneHalf Loght
+
+### 夜间模式 选择nushell > 外观 > 配色方案 > Dark+
+### 最后保存即可~
