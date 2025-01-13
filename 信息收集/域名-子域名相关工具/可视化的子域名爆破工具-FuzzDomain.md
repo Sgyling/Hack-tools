@@ -41,6 +41,11 @@ FuzzDomain是CDomain的域名爆破模块
 子域名爆破神器，需要java环境。
 
 ***\*0x02 安装与使用\****
+```
+  #下载完成后,是一个文件夹
+  #从终端打开
+  java -jar FuzzDomain.jar
+```
 
 一、输入域名
 
@@ -53,3 +58,4 @@ FuzzDomain是CDomain的域名爆破模块
 三、右击，导出当前域名
 
 ![img](https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibticFw0wQxBZIxQjDdlibVPfTr3ickRJFmibSHwl6wXGVQg34xuKwKyNSJQJ2xUAuyOlibriaUbGbBjDPCw/640?wx_fmt=png&from=appmsg)
+
